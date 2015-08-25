@@ -1,0 +1,15 @@
+C:\Users\SamshalTechs\Documents\Visual Studio 2013\Projects\Police Deployment\Police Deployment\bin\Debug\Police Deployment.exe.config
+C:\Users\SamshalTechs\Documents\Visual Studio 2013\Projects\Police Deployment\Police Deployment\bin\Debug\Police Deployment.exe
+C:\Users\SamshalTechs\Documents\Visual Studio 2013\Projects\Police Deployment\Police Deployment\bin\Debug\Police Deployment.pdb
+C:\Users\SamshalTechs\Documents\Visual Studio 2013\Projects\Police Deployment\Police Deployment\bin\Debug\Police Deployment.xml
+C:\Users\SamshalTechs\Documents\Visual Studio 2013\Projects\Police Deployment\Police Deployment\obj\Debug\Police_Deployment.Resources.resources
+C:\Users\SamshalTechs\Documents\Visual Studio 2013\Projects\Police Deployment\Police Deployment\obj\Debug\Police Deployment.vbproj.GenerateResource.Cache
+C:\Users\SamshalTechs\Documents\Visual Studio 2013\Projects\Police Deployment\Police Deployment\obj\Debug\Police Deployment.exe
+C:\Users\SamshalTechs\Documents\Visual Studio 2013\Projects\Police Deployment\Police Deployment\obj\Debug\Police Deployment.xml
+C:\Users\SamshalTechs\Documents\Visual Studio 2013\Projects\Police Deployment\Police Deployment\obj\Debug\Police Deployment.pdb
+C:\Users\SamshalTechs\Documents\Visual Studio 2013\Projects\Police Deployment\Police Deployment\obj\Debug\Police_Deployment.frmNew.resources
+C:\Users\SamshalTechs\Documents\Visual Studio 2013\Projects\Police Deployment\Police Deployment\obj\Debug\Police_Deployment.frmHome.resources
+C:\Users\SamshalTechs\Documents\Visual Studio 2013\Projects\Police Deployment\Police Deployment\obj\Debug\Police_Deployment.frmView.resources
+C:\Users\SamshalTechs\Documents\Visual Studio 2013\Projects\Police Deployment\Police Deployment\bin\Debug\PoliceDeployment.accdb
+C:\Users\SamshalTechs\Documents\Visual Studio 2013\Projects\Police Deployment\Police Deployment\obj\Debug\Police_Deployment.frmEdit.resources
+C:\Users\SamshalTechs\Documents\Visual Studio 2013\Projects\Police Deployment\Police Deployment\obj\Debug\Police_Deployment.frmDeploy.resources
