@@ -1,0 +1,92 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+PoliceDeployment
+</name>
+</assembly>
+<members>
+<member name="T:Police_Deployment.PoliceDeploymentDataSet.LocationsDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Police_Deployment.PoliceDeploymentDataSet.ProfileDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Police_Deployment.PoliceDeploymentDataSet.LocationsRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Police_Deployment.PoliceDeploymentDataSet.ProfileRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Police_Deployment.PoliceDeploymentDataSet.LocationsRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Police_Deployment.PoliceDeploymentDataSet.ProfileRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Police_Deployment.PoliceDeploymentDataSet">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:Police_Deployment.PoliceDeploymentDataSetTableAdapters.LocationsTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Police_Deployment.PoliceDeploymentDataSetTableAdapters.ProfileTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:Police_Deployment.PoliceDeploymentDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(Police_Deployment.PoliceDeploymentDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:Police_Deployment.PoliceDeploymentDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(Police_Deployment.PoliceDeploymentDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:Police_Deployment.PoliceDeploymentDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(Police_Deployment.PoliceDeploymentDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:Police_Deployment.PoliceDeploymentDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:Police_Deployment.PoliceDeploymentDataSetTableAdapters.TableAdapterManager.UpdateAll(Police_Deployment.PoliceDeploymentDataSet)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:Police_Deployment.PoliceDeploymentDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:Police_Deployment.PoliceDeploymentDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:Police_Deployment.PoliceDeploymentDataSetTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="P:Police_Deployment.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:Police_Deployment.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="T:Police_Deployment.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+</members>
+</doc>
