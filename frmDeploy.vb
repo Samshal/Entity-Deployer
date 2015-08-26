@@ -22,12 +22,16 @@ Public Class frmDeploy
 
     End Sub
 
-    Private Sub Label2_Click(sender As Object, e As EventArgs) Handles Label2.Click
+    Private Sub Label2_Click(sender As Object, e As EventArgs) Handles lblLoca.Click
+       
+    End Sub
+
+    Private Sub btnSave_Click_1(sender As Object, e As EventArgs) Handles btnSave.Click
         Dim id = txtID.Text
 
         cmd.CommandText = "SELECT ID, Location FROM Location ORDER BY Assigned ASC"
-        Dim reader As OleDbDataReader()
+        'Dim reader As OleDbDataReader()
         ' MessageBox.Show(reader.Length.ToString())
-
+        lblLoca.Text = "You've Been Deployed To Kaduna"
     End Sub
 End Class

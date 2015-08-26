@@ -22,19 +22,21 @@ Public Class frmNew
         Dim id = txtIDNumber.Text
         Dim picture = pcbPhoto.ImageLocation
         Dim rand = Int(Rnd() * 10)
-        cmd.CommandText = "SELECT Location FROM Locations"
-        Dim reader As OleDbDataReader
-        Dim myfield As DataRow
-        Dim myProp As DataColumn
-        Dim schemaTbl As DataTable
-        reader = cmd.ExecuteReader(CommandBehavior.KeyInfo)
-        schemaTbl = reader.GetSchemaTable()
-        Dim holder = myfield(myProp).ToString()
-        MessageBox.Show("Record Inserted Successfully, Location: " + holder)
+        MessageBox.Show(rand.ToString())
+        'cmd.CommandText = "SELECT Location FROM Locations"
+        'Dim reader As OleDbDataReader
+        'Dim myfield As DataRow
+        'Dim myProp As DataColumn
+        'Dim schemaTbl As DataTable
+        'reader = cmd.ExecuteReader(CommandBehavior.KeyInfo)
+        'schemaTbl = reader.GetSchemaTable()
+        'myfield = reader.
+        'Dim holder = myfield(myProp).ToString()
+        'MessageBox.Show("Record Inserted Successfully, Location: " + holder)
 
-        'cmd.CommandText = "INSERT INTO Profile (FirstName, LastName, Age, JoinDate, PhoneNumber, Email, Rank, IdentificationNumber, Picture, LocationID) VALUES ('" + firstname + "', '" + lastname + "', " + age + ", '" + joined + "', " + phone + ", '" + email + "', '" + rank + "', '" + id + "', '" + picture + "', " + rand + ")"
-        'cmd.ExecuteNonQuery()
-        'MessageBox.Show("Record Inserted Successfully")
+        cmd.CommandText = "INSERT INTO Profile (FirstName, LastName, Age, JoinDate, PhoneNumber, Email, Rank, IdentificationNumber, Picture, LocationID) VALUES ('" + firstname + "', '" + lastname + "', " + age + ", '" + joined + "', " + phone + ", '" + email + "', '" + rank + "', '" + id + "', '" + picture + "', " + rand + ")"
+        cmd.ExecuteNonQuery()
+        MessageBox.Show("Record Inserted Successfully")
     End Sub
 
     Private Sub btnUpload_Click(sender As Object, e As EventArgs) Handles btnUpload.Click

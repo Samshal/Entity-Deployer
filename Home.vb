@@ -12,4 +12,8 @@
     Private Sub EditToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles EditToolStripMenuItem.Click
         frmEdit.Show()
     End Sub
+
+    Private Sub DeployToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles DeployToolStripMenuItem.Click
+        frmDeploy.Show()
+    End Sub
 End Class

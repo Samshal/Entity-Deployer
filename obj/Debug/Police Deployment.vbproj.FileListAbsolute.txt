@@ -13,3 +13,7 @@ C:\Users\SamshalTechs\Documents\Visual Studio 2013\Projects\Police Deployment\Po
 C:\Users\SamshalTechs\Documents\Visual Studio 2013\Projects\Police Deployment\Police Deployment\bin\Debug\PoliceDeployment.accdb
 C:\Users\SamshalTechs\Documents\Visual Studio 2013\Projects\Police Deployment\Police Deployment\obj\Debug\Police_Deployment.frmEdit.resources
 C:\Users\SamshalTechs\Documents\Visual Studio 2013\Projects\Police Deployment\Police Deployment\obj\Debug\Police_Deployment.frmDeploy.resources
+C:\Users\SamshalTechs\Documents\Visual Studio 2013\Projects\Police Deployment\Police Deployment\obj\Debug\Police Deployment.exe.manifest
+C:\Users\SamshalTechs\Documents\Visual Studio 2013\Projects\Police Deployment\Police Deployment\bin\Debug\Police Deployment.exe.manifest
+C:\Users\SamshalTechs\Documents\Visual Studio 2013\Projects\Police Deployment\Police Deployment\bin\Debug\Police Deployment.application
+C:\Users\SamshalTechs\Documents\Visual Studio 2013\Projects\Police Deployment\Police Deployment\obj\Debug\Police Deployment.application

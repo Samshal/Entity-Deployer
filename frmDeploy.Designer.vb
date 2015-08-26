@@ -28,7 +28,8 @@ Partial Class frmDeploy
         Me.ProfileTableAdapter = New Police_Deployment.PoliceDeploymentDataSetTableAdapters.ProfileTableAdapter()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.txtID = New System.Windows.Forms.TextBox()
-        Me.Label2 = New System.Windows.Forms.Label()
+        Me.lblLoca = New System.Windows.Forms.Label()
+        Me.btnSave = New System.Windows.Forms.Button()
         CType(Me.ProfileBindingSource, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PoliceDeploymentDataSet, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
@@ -63,22 +64,31 @@ Partial Class frmDeploy
         Me.txtID.Size = New System.Drawing.Size(402, 20)
         Me.txtID.TabIndex = 1
         '
-        'Label2
+        'lblLoca
         '
-        Me.Label2.AutoSize = True
-        Me.Label2.Font = New System.Drawing.Font("Microsoft Sans Serif", 20.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label2.Location = New System.Drawing.Point(194, 246)
-        Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(427, 31)
-        Me.Label2.TabIndex = 2
-        Me.Label2.Text = "You've Been Deployed To Kaduna"
+        Me.lblLoca.AutoSize = True
+        Me.lblLoca.Font = New System.Drawing.Font("Microsoft Sans Serif", 20.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblLoca.Location = New System.Drawing.Point(194, 246)
+        Me.lblLoca.Name = "lblLoca"
+        Me.lblLoca.Size = New System.Drawing.Size(0, 31)
+        Me.lblLoca.TabIndex = 2
+        '
+        'btnSave
+        '
+        Me.btnSave.Location = New System.Drawing.Point(599, 51)
+        Me.btnSave.Name = "btnSave"
+        Me.btnSave.Size = New System.Drawing.Size(75, 23)
+        Me.btnSave.TabIndex = 3
+        Me.btnSave.Text = "View"
+        Me.btnSave.UseVisualStyleBackColor = True
         '
         'frmDeploy
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(847, 465)
-        Me.Controls.Add(Me.Label2)
+        Me.Controls.Add(Me.btnSave)
+        Me.Controls.Add(Me.lblLoca)
         Me.Controls.Add(Me.txtID)
         Me.Controls.Add(Me.Label1)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle
@@ -96,5 +106,6 @@ Partial Class frmDeploy
     Friend WithEvents ProfileTableAdapter As Police_Deployment.PoliceDeploymentDataSetTableAdapters.ProfileTableAdapter
     Friend WithEvents Label1 As System.Windows.Forms.Label
     Friend WithEvents txtID As System.Windows.Forms.TextBox
-    Friend WithEvents Label2 As System.Windows.Forms.Label
+    Friend WithEvents lblLoca As System.Windows.Forms.Label
+    Friend WithEvents btnSave As System.Windows.Forms.Button
 End Class
